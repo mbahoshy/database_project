@@ -1,0 +1,92 @@
+<html>
+<head>
+	<link rel='stylesheet' type='text/css' href='/css/main.css'	/>
+	<link rel='stylesheet' type='text/css' href='/css/style.php'	/>
+	<title>Add customer</title>
+</head>
+<body>
+<?php
+/*get job info and assign variables */
+	session_start();
+
+	@ $db = new mysqli('localhost', 'root', '07maryJ68', 'alpine');
+
+	if(mysqli_connect_errno()) {
+		echo "Error: Could not connect to database.";
+		exit;
+	}
+	
+
+	$page = 'equipment';
+	
+
+?>
+<div id='jobpage'>
+	<div id='header' class='gradient'>
+	</div>
+			<ul class='nav'>
+				<li><a href='/index.html'>Home</a></li>
+				<li><a href='/customer_folder/customer_search.php'>Customers</a></li>
+				<li><a href='/job_folder/job_search.php'>Jobs</a></li>
+				<li><a href='/equipment_folder/equip_search.php'>Inventory</a></li>
+				<li><a href='contact.htm'>Tasks</a></li>
+			</ul>
+	<div class='maindisplay'>
+		<div class='jobhead'>
+			<h1>Customer New Entry</h1>
+		</div>
+		<div class='subnav'>
+			<li><a href=''>Cancel</a></li>
+		</div>
+		<div class='content'>
+			<div class='content_full'>
+	
+				<form action="/customer_folder/insert_customer.php" method="post">
+					<table class='noborder'>
+						<tr>
+							<td>First name</td>
+							<td><input type="text" name="namefirst" maxlength="20" size="13"></td>
+						</tr>
+						<tr>
+							<td>Last name</td>
+							<td><input type="text" name="namelast" maxlength="20" size="13"></td>
+						</tr>
+						<tr>
+							<td>Address</td>
+							<td><input type="text" name="address" maxlength="20" size="13"></td>
+						</tr>
+						<tr>
+							<td>City</td>
+							<td><input type="text" name="city" maxlength="20" size="13"></td>
+						</tr>
+						<tr>
+							<td>Zip</td>
+							<td><input type="text" name="zip" maxlength="5" size="13"></td>
+						</tr>
+						<tr>
+							<td>Phone</td>
+							<td><input type="text" name="phone" maxlength="10" size="13"></td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td><input type="text" name="email" maxlength="20" size="13"></td>
+						</tr>
+						<tr>
+							<td>Choose Customer Type</td>
+							<td><select name="customertype">
+									<option value="Residential">Residential</option>
+									<option value="Commercial">Commercial</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="register"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,242 @@
+#jobpage {
+	width:952px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* subnav styling */
+.subnav {
+	width:91px;
+	z-index:-1;
+	float:left;
+	height:auto;
+}
+
+.subnav ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.subnav li {
+	padding:10px;
+}
+
+.subnav li:hover {
+	background-color:#d4e0ff;
+}
+
+
+
+.subnav a {
+	color:#5f2c2c;
+}
+
+
+
+
+.maps {
+	margin-right:10px;
+	float:left;
+}
+
+.details {
+	width:426px;
+	float:right;
+}
+
+
+.details table {
+	width:426px;
+}
+
+.details table td:first-child {
+	width:100px;
+}
+
+
+
+
+
+h2 a {
+	float:right;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.clear {
+clear:both;
+}
+
+.fleft {
+float: left;
+}
+
+.fright {
+float: right;
+}
+
+.notebox {
+width:428;
+padding-top:10px;
+}
+
+
+
+
+
+
+/*note styling */
+
+.notecontainer{
+width:350px;
+background-color:#fff;
+border: 1px solid #d0d0d0;
+
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.notehead {
+width:350px;
+background-color:#c8efff;
+border-bottom: 1px solid #d0d0d0;
+}
+
+.notehead p {
+
+margin:0px 10px 0px 10px;
+padding:5px 0px 5px 0px;
+}
+
+
+
+.notehead i {
+float:right;
+font-size:12px;
+}
+
+
+
+
+
+
+.notebody {
+width:350px;
+background-color:#fff;
+/* background-color:#f6f6f6; */
+height:100px;
+
+}
+
+.notebody p{
+
+margin:0px 10px 0px 10px;
+padding:5px 0px 5px 0px;
+}
+
+
+
+
+
+.notefoot {
+width:350px;
+background-color:#f6f6f6;
+border-top: 1px solid #d0d0d0;
+}
+
+.notefoot p{
+font-size:12px;
+margin:0px 10px 0px 10px;
+padding:5px 0px 5px 0px;
+}
+
+.notefoot a {
+float:right;
+font-size:12px;
+}
+
+
+
+
+/*	delete below
+
+
+
+#map_container {
+width:380px;
+padding: 10px 10px 0px 10px;
+
+float:left;
+}
+
+#detail_container{
+width:534px;
+
+padding: 10px 10px 0px 10px;
+
+
+float:right;
+}
+
+#info_container {
+z-index:3;
+top:25px;
+width:954px;	
+background-color:#fff;
+border: 3px solid #153179;
+border-radius: 10px;
+-moz-border-radius:10px;
+overflow:auto;
+}
+
+#top_part {
+
+border-bottom:2px solid black;
+}
+
+#top_part h1 {
+text-align:center;
+}
+
+.clear {
+clear:both
+}
+
+.note_container {
+float:left;
+width:477px;
+}
+
+.note {
+margin: 10px;
+background-color:#b6caff;
+border: 1px solid #153179;
+border-radius: 3px;
+-moz-border-radius:3px;
+width:457px;
+}
+
+.shadow {
+  -moz-box-shadow:    2px 2px 4px 4px #ccc;
+  -webkit-box-shadow: 2px 2px 4px 4px #ccc;
+  box-shadow:         2px 2px 4px 4px #ccc;
+}
+
+.creator {
+text-align:right;
+color:grey;
+}
+
+.note p {
+padding:10px;
+}
+
+
+*/
+
+
+
+

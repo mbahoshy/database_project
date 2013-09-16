@@ -1,0 +1,27 @@
+.customerlist {
+	width:300px;
+	float:left;
+}
+
+.customercontainer {
+	width:900px;
+}
+
+.customercontainer table {
+	width:700px;
+
+}
+
+#body {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+
+.custinfo {
+	width:836px;
+	margin:10px;
+}

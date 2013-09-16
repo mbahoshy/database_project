@@ -1,0 +1,49 @@
+<serviceticket>
+	<DOR></DOR>
+	<DOS></DOS>
+	<cname></cname>
+	<address></address>
+	<city></city>
+	<phone></phone>
+	<reason></reason>
+	<technician></technician>
+	<stime></stime>
+	<atime></atime>
+	<ctime></ctime>
+	<ttime></ttime>
+	<serviceid></serviceid>
+	<description></description>
+	<recommendations></recommendations>
+	<environmental></environmental>
+	<pma></pma>
+	<overtime></overtime>
+	<products>
+		<qty></qty>
+		<descrip></descrip>
+		<price></price>
+		<total></total>
+	</products>
+	<payment>
+		<type></type>
+		<card></card>
+		<exp></exp>
+		<code></code>
+		<zip></zip>
+	</payment>
+</serviceticket>
+
+	<!-- <system>
+		<cooling>
+			<type></type>
+			<make></make>
+			<model></model>
+			<serial></serial>
+		</cooling>
+		<heating>
+			<type></type>
+			<make></make>
+			<model></model>
+			<serial></serial>
+			<strip></strip>
+		</heating>
+	</system> -->
